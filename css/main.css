@@ -1,0 +1,48 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+body { line-height: 1; }
+ol, ul { list-style: none; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content:''; content: none; }
+table { border-collapse: collapse; border-spacing: 0; }
+body { background-color: #f8f8fa; font-family:"Helvetica Neue", Helvetica, Arial, "Microsoft YaHei UI", "Microsoft YaHei", "Hiragino Sans GB", "Hiragino Sans GB W3", "WenQuanYi Micro Hei", sans-serif; margin: 0; min-width: 560px; }
+.template { display: none; }
+header a { outline: none; }
+p { font-size: 12px; }
+::-webkit-scrollbar { width: 0; height: 0; }
+body { color: #333333; max-width: 560px; }
+.logoContainer { width: 100%; padding: 20px 15px; background-color: #fff; box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1); }
+.logo { float: right; width: 104px; }
+#wrap { padding: 15px; }
+.content { -webkit-border-radius: 4px; border-radius: 4px; font-size: 14px; line-height: 20px; margin-bottom: 10px; }
+.pathContainer { min-width: 350px; }
+.pathItem { -webkit-border-radius: 5px; border-radius: 5px; margin-bottom: 10px; background-color: #fff; min-height: 40px; width: 100%; box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2); overflow: hidden; cursor: pointer; }
+.pathItem h2, .pathItem h3 { overflow: hidden; white-space: nowrap; text-overflow: ellipsis; margin: 0; padding: 0; font-weight: normal; }
+.pathItem h2 { padding: 10px 0; font-size: 16px; font-weight: bold; }
+.pathItem h3 { font-size: 14px; margin-bottom: 10px; }
+.pathItem a.close { display: none; position: absolute; top: 15px; right: 15px; height: 21px; width: 21px; background: url('../images/close.png') no-repeat center center; }
+.pathItem.expanded { cursor: auto; }
+.pathItem.expanded h2, .pathItem.expanded h3 { white-space: normal; word-wrap: break-word; }
+.pathItem.expanded a.close { display: block; }
+.pathItem.expanded .pathHeaderContainer .pathHeader { padding-right: 50px; }
+.pathItem .pathHeaderContainer { width: 100%; }
+.pathItem .pathHeaderContainer .pathIcon { float: left; width: 65px; height: 75px; border-radius: 5px; box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.2); background: #5d945a url('../images/tick.png') no-repeat center center; }
+.pathItem .pathHeaderContainer .pathHeader { padding-left: 75px; padding-right: 10px; position: relative; }
+.pathItem h2 { color: #5d945a; }
+.pathItem:hover { box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2), inset 0px 0px 0px 1px #5d945a; }
+.pathItem.redirect h2 { color: #f0a012; }
+.pathItem.redirect:hover { box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2), inset 0px 0px 0px 1px #f0a012; }
+.pathItem.redirect .pathIcon { background: #f0a012 url('../images/arrow.png') no-repeat center center; }
+.pathItem.notfound h2, .pathItem.error h2 { color: #e22b2b; }
+.pathItem.notfound:hover, .pathItem.error:hover { box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2), inset 0px 0px 0px 1px #e22b2b; }
+.pathItem.notfound .pathIcon, .pathItem.error .pathIcon { background: #e22b2b url('../images/warning.png') no-repeat center center; }
+.pathItem.expanded:hover { box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2); }
+.pathItem .responseKey { float: left; font-weight: bold; }
+.pathItem .responseValue { float: right; }
+.pathItem li { padding: 5px 20px; border-bottom: 1px solid #f6f6f6; }
+.pathItem li:last-child { border: 0; }
+.pathItem li div { width: 50%; word-wrap: break-word; }
+.pathItem .pathResponseHeaders { margin: 10px 0; display: none; font-size: 12px; width: 100%; }
+.pathItem .responseContainer { width: 100%; }
+.clearFix:after, .pathItem li:after { content:""; display: table; clear: both; }
+.hide { display: none; }
